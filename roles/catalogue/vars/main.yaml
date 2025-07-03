@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.devopspract.site
+MONGODB_HOST: "mongodb-{{ env }}.devopspract.site"
