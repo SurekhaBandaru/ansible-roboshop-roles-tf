@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.devopspract.site
-REDIS_HOST: redis.devopspract.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.devopspract.site #here cart directly cannot connect catalogue, everything will happen through ALB so need to give like .backend-{{ env }}
+REDIS_HOST: redis-{{ env }}.devopspract.site

@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.devopspract.site
-USER_HOST: user.devopspract.site
-CART_HOST: cart.devopspract.site
-SHIPPING_HOST: shipping.devopspract.site
-PAYMENT_HOST: payment.devopspract.site
+CATALOGUE_HOST: catalogue-{{ env }}.devopspract.site
+USER_HOST: user-{{ env }}.devopspract.site
+CART_HOST: cart-{{ env }}.devopspract.site
+SHIPPING_HOST: shipping-{{ env }}.devopspract.site
+PAYMENT_HOST: payment-{{ env }}.devopspract.site
