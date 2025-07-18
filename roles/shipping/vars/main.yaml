@@ -1,4 +1,4 @@
 MYSQL_HOST: mysql-{{ env }}.devopspract.site
 MYSQL_ROOT_USER: root
 MYSQL_ROOT_PASSWORD: RoboShop@1
-CART_HOST: cart.backend-{{ env }}.devopspract.site # connect thorugh application load balancer
+CART_HOST: cart.backend-{{ env }}.devopspract.site # connect through application load balancer
